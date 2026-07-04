@@ -1,0 +1,174 @@
+==============================================================================
+          FRANKIE'S WEBSITE — IMAGE & VIDEO DIMENSIONS GUIDE
+==============================================================================
+
+Use this guide to create images/videos that fit perfectly in each section.
+All media uses object-fit: cover (fills the area, crops edges if needed).
+For best results, match the recommended aspect ratio.
+
+TIP: Videos should be MP4 format. Images should be JPG/PNG/WEBP.
+TIP: "cover" means media fills the container — center your subject!
+
+==============================================================================
+  HOME PAGE  (/)
+==============================================================================
+
+1. HERO BANNER (Main Hero)
+   Field:    hero_image_url
+   Width:    Full screen (100% viewport)
+   Height:   80vh desktop / 60vh mobile
+   Rec Size: 1920 x 1080 px (16:9 landscape)
+   Fit:      cover — center your subject in the middle
+
+2. SECONDARY HERO
+   Field:    secondary_hero_image_url
+   Width:    Full screen (100% viewport)
+   Height:   50vh desktop / 30vh mobile
+   Rec Size: 1920 x 800 px (ultra-wide landscape, ~2.4:1)
+   Fit:      cover — keep subjects centered
+
+3. GRID IMAGE 1 (top-left)
+   Field:    grid_image_1_url
+   Width:    50% of screen
+   Height:   450px desktop / 200px mobile
+   Rec Size: 960 x 450 px (roughly 2:1 landscape)
+   Fit:      cover
+
+4. GRID IMAGE 2 (bottom-left)
+   Field:    grid_image_2_url
+   Width:    50% of screen
+   Height:   450px desktop / 200px mobile
+   Rec Size: 960 x 450 px (roughly 2:1 landscape)
+   Fit:      cover
+
+5. GRID IMAGE 3 (top-right)
+   Field:    grid_image_3_url
+   Width:    50% of screen
+   Height:   600px desktop / 280px mobile
+   Rec Size: 960 x 600 px (roughly 8:5 landscape)
+   Fit:      cover
+
+6. GRID IMAGE 4 (bottom-right)
+   Field:    grid_image_4_url
+   Width:    50% of screen
+   Height:   300px desktop / 120px mobile
+   Rec Size: 960 x 300 px (ultra-wide, ~3.2:1)
+   Fit:      cover
+
+==============================================================================
+  ABOUT PAGE  (/about)
+==============================================================================
+
+7. HERO BANNER
+   Field:    hero_image_url
+   Width:    Full screen
+   Height:   80vh
+   Rec Size: 1920 x 1080 px (16:9)
+   Fit:      cover
+
+8. CHEF IMAGE
+   Field:    chef_image_url
+   Width:    ~33% of screen (1 of 3 columns)
+   Height:   600px
+   Rec Size: 500 x 600 px (portrait, ~5:6)
+   Fit:      cover — keep chef centered vertically
+
+9. PASSION IMAGE
+   Field:    passion_image_url
+   Width:    ~33% of screen (1 of 3 columns)
+   Height:   650px
+   Rec Size: 500 x 650 px (portrait, ~5:6.5)
+   Fit:      cover
+
+10. LIFESTYLE BANNER
+    Field:   lifestyle_image_url
+    Width:   Full screen
+    Height:  70vh
+    Rec Size: 1920 x 900 px (wide landscape, ~2.1:1)
+    Fit:     cover
+
+==============================================================================
+  LOCATIONS PAGE  (/locations)
+==============================================================================
+
+11. LOCATION CARD IMAGE
+    Field:   location_N_image (N = 1, 2, 3...)
+    Width:   Up to 600px
+    Height:  Auto (4:3 aspect ratio)
+    Rec Size: 800 x 600 px (4:3 landscape)
+    Fit:     cover
+
+==============================================================================
+  AGOURA HILLS PAGE  (/agoura)
+==============================================================================
+
+12. HERO IMAGE
+    Field:   hero_image_url
+    Width:   Full screen
+    Height:  60vh
+    Rec Size: 1920 x 900 px (wide landscape, ~2.1:1)
+    Fit:     cover
+
+13. SLIDING GALLERY IMAGES (×5 default)
+    Field:   agoura_gallery_N_image (N = 1, 2, 3...)
+    Width:   250–400px per slide
+    Height:  280–450px per slide
+    Rec Size: 800 x 900 px (portrait or square ~4:5)
+    Fit:     cover
+
+==============================================================================
+  PRESS PAGE  (/press)
+==============================================================================
+
+14. PRESS ARTICLE THUMBNAIL
+    Field:   press_N_image (N = 1, 2, 3, 4)
+    Width:   ~400–600px
+    Height:  320px desktop / 240px mobile
+    Rec Size: 800 x 500 px (landscape, ~8:5)
+    Fit:     cover — rounded corners (24px radius)
+
+==============================================================================
+  GLOBAL / NAVBAR
+==============================================================================
+
+15. NAVBAR LOGO
+    Field:   navbar_logo_url
+    Width:   Auto (max 180px)
+    Height:  40–65px
+    Rec Size: 360 x 130 px (transparent PNG, ~2.8:1)
+    Fit:     contain (full logo shown, no cropping)
+
+==============================================================================
+  VIDEO TIPS
+==============================================================================
+
+• Format:       MP4 (H.264 codec) for best browser compatibility
+• Resolution:   Match the recommended sizes above
+• Duration:     Short loops (5–15 seconds) work best
+• Audio:        Videos auto-play MUTED — no audio needed
+• Behavior:     Videos auto-play, loop, and are muted on the website
+• File Size:    Keep under 5MB for fast loading (compress with HandBrake)
+• Aspect Ratio: Match the section's aspect ratio to avoid cropping
+
+==============================================================================
+  QUICK REFERENCE TABLE
+==============================================================================
+
+SECTION                  | REC SIZE (px)  | ASPECT RATIO | FORMAT
+-------------------------|----------------|--------------|----------
+Home Hero                | 1920 x 1080    | 16:9         | img/video
+Home Secondary Hero      | 1920 x 800     | 2.4:1        | img/video
+Grid Image 1 & 2         | 960 x 450      | 2:1          | img/video
+Grid Image 3             | 960 x 600      | 8:5          | img/video
+Grid Image 4             | 960 x 300      | 3.2:1        | img/video
+About Hero               | 1920 x 1080    | 16:9         | img/video
+Chef Image               | 500 x 600      | 5:6 portrait | img/video
+Passion Image            | 500 x 650      | 5:6.5 port.  | img/video
+Lifestyle Banner         | 1920 x 900     | 2.1:1        | img/video
+Location Card            | 800 x 600      | 4:3          | img/video
+Agoura Hero              | 1920 x 900     | 2.1:1        | img/video
+Gallery Slides           | 800 x 900      | 4:5 portrait | img/video
+Press Thumbnail          | 800 x 500      | 8:5          | img/video
+Navbar Logo              | 360 x 130      | 2.8:1        | PNG only
+
+==============================================================================
